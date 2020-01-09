@@ -23,6 +23,7 @@
 #define RT_TIMER_THREAD_STACK_SIZE 1024
 #define RT_DEBUG
 #define RT_DEBUG_COLOR
+#define RT_PRINTF_LONGLONG
 
 /* Inter-Thread communication */
 
@@ -58,7 +59,7 @@
 
 #define RT_USING_COMPONENTS_INIT
 #define RT_USING_USER_MAIN
-#define RT_MAIN_THREAD_STACK_SIZE 8196
+#define RT_MAIN_THREAD_STACK_SIZE 16*1024
 #define RT_MAIN_THREAD_PRIORITY 10
 
 /* C++ features */
